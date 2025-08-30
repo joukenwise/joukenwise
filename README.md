@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://freeimage.host/i/KK12J8x" width="500"/>
+  <img src="https://pin.it/35qDwG7yA" width="500"/>
 </p>
 
 ---
