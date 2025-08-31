@@ -45,4 +45,63 @@
   <!-- Skull Icon -->
   <g transform="translate(54,54)">
     <g filter="url(#glow)" opacity="0.95">
-      <text x="20" y="34" font-family="Fira Code, monospace" font-size="
+      <text x="20" y="34" font-family="Fira Code, monospace" font-size="20" fill="#0ea5a4" font-weight="700" opacity="0.6">☠</text>
+    </g>
+  </g>
+
+  <!-- Title -->
+  <g transform="translate(110,50)">
+    <text x="0" y="0" font-family="Inter, 'Fira Code', monospace" font-size="18" fill="#9fe3d7" letter-spacing="1">🏴‍☠️ PIRATE DIGITAL ID</text>
+
+    <!-- Animated Name -->
+    <g transform="translate(0,38)">
+      <text id="name" x="0" y="0" font-family="Fira Code, monospace" font-size="30" fill="#ffffff" font-weight="700">
+        Jouken
+      </text>
+      <rect x="0" y="-24" width="0" height="36" fill="#ffffff" opacity="0">
+        <animate attributeName="width" from="0" to="720" dur="2.2s" begin="0.2s" fill="freeze" />
+      </rect>
+      <text id="name" x="0" y="0" font-family="Fira Code, monospace" font-size="30" fill="#ffffff" font-weight="700" opacity="0">
+  Jouken
+  <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.2s" fill="freeze"/>
+</text>
+    </g>
+  </g>
+
+  <!-- Info block -->
+  <g transform="translate(110,130)">
+    <g font-family="Fira Code, monospace" font-size="14" fill="#cdebe4">
+      <text x="0" y="0">🧑 Name     : <tspan fill="#ffffff" font-weight="600">Jouken</tspan></text>
+      <text x="0" y="26">🎂 Age      : <tspan fill="#ffffff" font-weight="600">21 Years</tspan></text>
+      <text x="0" y="52">📍 Province : <tspan fill="#ffffff" font-weight="600">Jawa Barat</tspan></text>
+      <text x="0" y="78">🌐 Country  : <tspan fill="#ffffff" font-weight="600">Indonesia</tspan></text>
+    </g>
+  </g>
+
+  <!-- Avatar / Symbol -->
+  <g transform="translate(680,54)">
+    <rect x="0" y="0" width="160" height="160" rx="8" ry="8" fill="#00141a" opacity="0.12"/>
+    <circle cx="80" cy="80" r="54" fill="#002829" stroke="url(#accent)" stroke-width="1.8"/>
+    <text x="80" y="86" font-family="Fira Code, monospace" font-size="20" fill="#9fe3d7" text-anchor="middle" opacity="0.9">0xJ</text>
+    <circle cx="80" cy="80" r="64" fill="none" stroke="#ffcc00" stroke-opacity="0.06" stroke-width="2">
+      <animate attributeName="stroke-opacity" values="0.02;0.12;0.02" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="64;70;64" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Scanner bar -->
+  <g transform="translate(36,236)">
+    <rect x="0" y="0" width="828" height="6" rx="3" fill="#05262a" />
+    <rect x="-160" y="-1" width="220" height="8" rx="4" fill="url(#accent)" opacity="0.12">
+      <animate attributeName="x" from="-160" to="860" dur="4.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="0" y="-12" font-family="Fira Code, monospace" font-size="11" fill="#7ee5d9" opacity="0.9">
+      STATUS: <tspan fill="#ffffff" font-weight="700">ONLINE</tspan> · HAKI VERIFIED
+    </text>
+  </g>
+
+  <!-- Flicker -->
+  <rect x="0" y="0" width="900" height="280" fill="transparent">
+    <animate attributeName="opacity" values="1;0.995;1" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+</svg>
