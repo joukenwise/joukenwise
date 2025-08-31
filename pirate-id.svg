@@ -55,16 +55,10 @@
 
     <!-- Animated Name -->
     <g transform="translate(0,38)">
-      <text id="name" x="0" y="0" font-family="Fira Code, monospace" font-size="30" fill="#ffffff" font-weight="700">
-        Jouken
-      </text>
-      <rect x="0" y="-24" width="0" height="36" fill="#ffffff" opacity="0">
-        <animate attributeName="width" from="0" to="720" dur="2.2s" begin="0.2s" fill="freeze" />
-      </rect>
       <text id="name" x="0" y="0" font-family="Fira Code, monospace" font-size="30" fill="#ffffff" font-weight="700" opacity="0">
-  Jouken
-  <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.2s" fill="freeze"/>
-</text>
+        Jouken
+        <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.2s" fill="freeze"/>
+      </text>
     </g>
   </g>
 
@@ -78,15 +72,19 @@
     </g>
   </g>
 
-  <!-- Avatar / Symbol -->
+  <!-- Avatar GitHub -->
   <g transform="translate(680,54)">
     <rect x="0" y="0" width="160" height="160" rx="8" ry="8" fill="#00141a" opacity="0.12"/>
-    <circle cx="80" cy="80" r="54" fill="#002829" stroke="url(#accent)" stroke-width="1.8"/>
-    <text x="80" y="86" font-family="Fira Code, monospace" font-size="20" fill="#9fe3d7" text-anchor="middle" opacity="0.9">0xJ</text>
     <circle cx="80" cy="80" r="64" fill="none" stroke="#ffcc00" stroke-opacity="0.06" stroke-width="2">
       <animate attributeName="stroke-opacity" values="0.02;0.12;0.02" dur="3.2s" repeatCount="indefinite"/>
       <animate attributeName="r" values="64;70;64" dur="3.2s" repeatCount="indefinite"/>
     </circle>
+
+    <clipPath id="avatarClip">
+      <circle cx="80" cy="80" r="54"/>
+    </clipPath>
+
+    <image xlink:href="https://github.com/USERNAME.png" x="26" y="26" width="108" height="108" clip-path="url(#avatarClip)"/>
   </g>
 
   <!-- Scanner bar -->
