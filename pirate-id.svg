@@ -85,7 +85,7 @@
     </clipPath>
 
     <!-- Avatar GitHub menggunakan href langsung -->
-    <image href="https://github.com/joukenwise/joukenwise/blob/main/avatar.jpg" x="26" y="26" width="108" height="108" clip-path="url(#avatarClip)"/>
+    <image href="./root/avatar.jpg" x="26" y="26" width="108" height="108" clip-path="url(#avatarClip)"/>
   </g>
 
   <!-- Scanner bar -->
