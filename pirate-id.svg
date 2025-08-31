@@ -51,7 +51,7 @@
 
   <!-- Title -->
   <g transform="translate(110,50)">
-    <text x="0" y="0" font-family="Inter, 'Fira Code', monospace" font-size="18" fill="#9fe3d7" letter-spacing="1">🏴‍☠️ PIRATE DIGITAL ID</text>
+    <text x="0" y="0" font-family="Inter, 'Fira Code', monospace" font-size="18" fill="#9fe3d7" letter-spacing="1">🏴‍☠️ ID CARD NAKAMA</text>
 
     <!-- Animated Name -->
     <g transform="translate(0,38)">
@@ -65,10 +65,10 @@
   <!-- Info block -->
   <g transform="translate(110,130)">
     <g font-family="Fira Code, monospace" font-size="14" fill="#cdebe4">
-      <text x="0" y="0">🧑 Name     : <tspan fill="#ffffff" font-weight="600">Jouken</tspan></text>
-      <text x="0" y="26">🎂 Age      : <tspan fill="#ffffff" font-weight="600">21 Years</tspan></text>
-      <text x="0" y="52">📍 Province : <tspan fill="#ffffff" font-weight="600">Jawa Barat</tspan></text>
-      <text x="0" y="78">🌐 Country  : <tspan fill="#ffffff" font-weight="600">Indonesia</tspan></text>
+      <text x="0" y="0">Name     : <tspan fill="#ffffff" font-weight="600">Jouken</tspan></text>
+      <text x="0" y="26">Age      : <tspan fill="#ffffff" font-weight="600">21 Years</tspan></text>
+      <text x="0" y="52">Province : <tspan fill="#ffffff" font-weight="600">Jawa Barat</tspan></text>
+      <text x="0" y="78">Country  : <tspan fill="#ffffff" font-weight="600">Indonesia</tspan></text>
     </g>
   </g>
 
@@ -84,7 +84,8 @@
       <circle cx="80" cy="80" r="54"/>
     </clipPath>
 
-    <image xlink:href="https://github.com/USERNAME.png" x="26" y="26" width="108" height="108" clip-path="url(#avatarClip)"/>
+    <!-- Avatar GitHub menggunakan href langsung -->
+    <image href="https://github.com/joukenwise.png" x="26" y="26" width="108" height="108" clip-path="url(#avatarClip)"/>
   </g>
 
   <!-- Scanner bar -->
