@@ -21,7 +21,7 @@
 - 🎮 Hobby: *Anime, Gaming, and breaking things to rebuild them better*  
 
 <p align="center">
-  <img src="https://media.tenor.com/3_q8XrjGmoEAAAAC/zoro-one-piece.gif" width="400"/>
+  <img src="https://github.com/joukenwise/joukenwise/blob/main/zoro.gif" width="400"/>
 </p>
 
 ---
@@ -41,12 +41,12 @@
 ## 📊 Bounty & Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=tokyonight&hide_border=true&title_color=ffcc00&icon_color=ffcc00" height="180"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=USERNAME&theme=tokyonight&hide_border=true&ring=ffcc00&fire=ffcc00&currStreakLabel=ffcc00" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=joukenwise&show_icons=true&theme=tokyonight&hide_border=true&title_color=ffcc00&icon_color=ffcc00" height="180"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=joukenwise&theme=tokyonight&hide_border=true&ring=ffcc00&fire=ffcc00&currStreakLabel=ffcc00" height="180"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&theme=tokyonight&hide_border=true&title_color=ffcc00" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joukenwise&layout=compact&theme=tokyonight&hide_border=true&title_color=ffcc00" height="180"/>
 </p>
 
 <p align="center">
